@@ -1312,3 +1312,23 @@
   content: "\e916";
   color: #fff;
 }
+
+#mobileDiv {
+  display: none; /* Hide by default */
+}
+
+/* This CSS will apply to the div not visible on mobile */
+#nonMobileDiv {
+  display: block; /* Visible by default */
+}
+
+/* Media query for mobile devices (up to 768px width) */
+@media screen and (max-width: 768px) {
+  #mobileDiv {
+      display: block; /* Show on mobile */
+  }
+
+  #nonMobileDiv {
+      display: none; /* Hide on mobile */
+  }
+}

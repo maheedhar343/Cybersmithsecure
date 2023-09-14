@@ -412,3 +412,8 @@ body[data-magic-cursor="hide"] .mouse-cursor{display: none; opacity: 0; visibili
 
 
 
+@media screen and (max-width: 480px) { 
+    clientdiv { 
+      display: block; 
+    } 
+  }
