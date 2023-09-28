@@ -1332,3 +1332,12 @@
       display: none; /* Hide on mobile */
   }
 }
+
+.underattack{
+  position: fixed;
+  top: 0;
+  right: 0;
+   /* Background color */
+  color: rgb(255, 51, 0); /* Text color */
+  padding: 10px;
+}
