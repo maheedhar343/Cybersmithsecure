@@ -1348,4 +1348,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-block-end: 0%;
+  text-align:right; 
+  padding-top: 20px;
+
+}
+
+.header__body{
+  padding-bottom: 20px;
 }
